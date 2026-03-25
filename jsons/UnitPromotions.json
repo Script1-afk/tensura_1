@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Prédateur I",
+    "prerequisites": [],
+    "unitTypes": ["Melee", "Mounted"],
+    "uniques": [
+      "[+10]% Force",
+      "Soigne cette unité de [100] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Prédateur II",
+    "prerequisites": ["Prédateur I"],
+    "unitTypes": ["Melee", "Mounted"],
+    "uniques": [
+      "[+20]% Force",
+      "Soigne cette unité de [200] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Prédateur III",
+    "prerequisites": ["Prédateur II"],
+    "unitTypes": ["Melee", "Mounted"],
+    "uniques": [
+      "[+30]% Force",
+      "Soigne cette unité de [300] PV en tuant une unité",
+      "Peut se déplacer après avoir attaqué"
+    ]
+  },
+  {
+    "name": "Grand Sage I",
+    "prerequisites": [],
+    "unitTypes": ["Ranged", "Siege"],
+    "uniques": [
+      "[+10]% Force à distance",
+      "[+1] Portée"
+    ]
+  },
+  {
+    "name": "Grand Sage II",
+    "prerequisites": ["Grand Sage I"],
+    "unitTypes": ["Ranged", "Siege"],
+    "uniques": [
+      "[+20]% Force à distance",
+      "[+1] Portée"
+    ]
+  },
+  {
+    "name": "Aura de Tempête",
+    "prerequisites": ["Grand Sage II"],
+    "unitTypes": ["Melee", "Ranged", "Mounted", "Siege"],
+    "uniques": [
+      "[+25]% Force",
+      "[+25]% Force à distance",
+      "Ignore la Zone de Contrôle"
+    ]
+  },
+  {
+    "name": "Puissance du Roi Démon",
+    "prerequisites": ["Aura de Tempête"],
+    "unitTypes": ["Melee", "Mounted"],
+    "uniques": [
+      "[+50]% Force",
+      "Soigne cette unité de [500] PV en tuant une unité",
+      "[+1] Mouvement"
+    ]
+  },
+  {
+    "name": "Sang de Vrai Dragon",
+    "prerequisites": ["Puissance du Roi Démon"],
+    "unitTypes": ["Melee", "Ranged", "Mounted", "Siege"],
+    "uniques": [
+      "[+75]% Force",
+      "[+75]% Force à distance",
+      "Soigne cette unité de [1000] PV en tuant une unité",
+      "[+2] Mouvement"
+    ]
+  }
+]

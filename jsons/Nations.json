@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Fédération de Jura Tempest",
+    "leaderName": "Rimuru Tempest",
+    "adjective": "Tempestien",
+    "style": "Asian",
+    "startBias": ["Forest"],
+    "preferredVictoryType": "Domination",
+    "color": "#4CAF50",
+    "secondaryColor": "#1B5E20",
+    "cities": [
+      "Tempest", "Ville de Rimuru", "Forteresse du Dragon des Tempêtes", "Porte de Veldora",
+      "Siège de l'Octagramme", "Flèche du Roi Démon", "Cœur du Jura", "Repos de Milim",
+      "Domaine de Diablo", "Forteresse de Benimaru", "Bastion de Hakuro", "Repaire de Ranga",
+      "Veille de Shion", "Village Gobelin", "Passage des Hommes-Lézards", "Colonie Orque",
+      "Forge Naine", "Repaire du Dragon", "Bosquet Mystique", "Plaines Orageuses"
+    ],
+    "spyNames": ["Diablo Ombre", "Œil de la Tempête", "Œil de Rimuru", "Le Prédateur", "Éclaireur Sage"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]",
+      "[+500]% [Or] [dans toutes les villes]",
+      "[+500]% [Culture] [dans toutes les villes]",
+      "[+500]% [Foi] [dans toutes les villes]",
+      "Permet l'embarquement des unités terrestres",
+      "Les unités ignorent les coûts de déplacement du terrain dans les cases Forêt"
+    ],
+    "uniqueBuildings": [
+      "Château de Tempest",
+      "Dimension du Labyrinthe",
+      "Cour de l'Octagramme",
+      "Sanctuaire du Dragon des Tempêtes",
+      "Forge de Magie",
+      "Grande Bibliothèque Sage",
+      "Palais du Roi Démon",
+      "Sanctuaire du Vrai Dragon",
+      "Académie Slimecrown",
+      "Armurerie Dimensionnelle"
+    ],
+    "uniqueUnits": [
+      "Rimuru (Slime)",
+      "Rimuru (Démon)",
+      "Rimuru (Vrai Roi Démon)",
+      "Rimuru (Dieu)",
+      "Veldora Tempest",
+      "Milim Nava",
+      "Diablo",
+      "Shion",
+      "Ranga",
+      "Benimaru",
+      "Hakuro",
+      "Souei",
+      "Geld (Seigneur Orque)",
+      "Gobta (Cavalerie Gobeline)",
+      "Guerrier Homme-Lézard",
+      "Désastre Orque",
+      "Soldat Démon",
+      "Archer Démon",
+      "Mage de la Tempête",
+      "Gardien du Vrai Dragon",
+      "Corps du Dragon des Tempêtes",
+      "Colosse Dimensionnel",
+      "Bombe Magique",
+      "Colon de la Fédération de Jura Tempest",
+      "Ouvrier de la Fédération de Jura Tempest"
+    ],
+    "personality": {
+      "aggression": 6,
+      "expansion": 8,
+      "science": 9,
+      "gold": 7,
+      "culture": 6,
+      "wonder": 8,
+      "buildership": 9,
+      "loyalty": 8,
+      "protection": 8,
+      "militaryPower": 9,
+      "economicPower": 9
+    }
+  },
+  {
+    "name": "Empire d'Orient (Nasca)",
+    "leaderName": "Rudra Nam Ul Nasca",
+    "adjective": "Impérial",
+    "style": "European",
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Domination",
+    "color": "#8B0000",
+    "secondaryColor": "#4B0082",
+    "cities": [
+      "Capitale Impériale", "Forteresse de Rudra", "Cité de Velgrynd", "Porte de l'Est",
+      "Bastion Céleste", "Tour de l'Aube", "Cœur de l'Empire", "Garde Éternelle",
+      "Palais du Dragon", "Citadelle de l'Empereur"
+    ],
+    "spyNames": ["Œil Impérial", "Ombre de Rudra", "Espion Céleste"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]",
+      "[+500]% [Or] [dans toutes les villes]",
+      "[+500]% [Culture] [dans toutes les villes]"
+    ],
+    "personality": {
+      "aggression": 9,
+      "expansion": 7,
+      "science": 8,
+      "gold": 7,
+      "culture": 6,
+      "militaryPower": 10,
+      "economicPower": 8
+    }
+  },
+  {
+    "name": "Saint Empire de Lubelius",
+    "leaderName": "Hinata Sakaguchi",
+    "adjective": "Saint",
+    "style": "European",
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Cultural",
+    "color": "#FFEB3B",
+    "secondaryColor": "#F57F17",
+    "cities": [
+      "Capitale Sainte", "Cité Bénie", "Forteresse Sacrée", "Domaine Divin",
+      "Porte Céleste", "Forteresse de Lumière", "Bastion du Ciel", "Cité de Grâce",
+      "Flèche de Pureté", "Domaine de la Foi"
+    ],
+    "spyNames": ["Œil Sacré", "Éclaireur de Lumière", "Lame Bénie"],
+    "uniques": [
+      "[+500]% [Foi] [dans toutes les villes]",
+      "[+500]% [Culture] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]"
+    ],
+    "personality": {
+      "aggression": 5,
+      "expansion": 6,
+      "science": 7,
+      "gold": 6,
+      "culture": 9,
+      "militaryPower": 6,
+      "economicPower": 7
+    }
+  },
+  {
+    "name": "Royaume de Dwargon",
+    "leaderName": "Gazel Dwargo",
+    "adjective": "Nain",
+    "style": "European",
+    "startBias": ["Hills", "Mountains"],
+    "preferredVictoryType": "Scientific",
+    "color": "#795548",
+    "secondaryColor": "#3E2723",
+    "cities": [
+      "Dwargon", "Forge de Fer", "Forteresse Montagnarde", "Cité de Granit",
+      "District Minier", "Palais Roches", "Domaine de la Forge", "Bastion d'Acier",
+      "Cité de l'Enclume", "Pic du Marteau"
+    ],
+    "spyNames": ["Espion de Fer", "Œil de la Forge", "Éclaireur Montagnard"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]",
+      "[+500]% [Or] [dans toutes les villes]"
+    ],
+    "personality": {
+      "aggression": 5,
+      "expansion": 6,
+      "science": 9,
+      "gold": 8,
+      "militaryPower": 7,
+      "economicPower": 9
+    }
+  },
+  {
+    "name": "Dynastie de Sarion",
+    "leaderName": "Elmesia El-Ru Sarion",
+    "adjective": "Elfe",
+    "style": "Asian",
+    "startBias": ["Forest"],
+    "preferredVictoryType": "Cultural",
+    "color": "#008080",
+    "secondaryColor": "#004D40",
+    "cities": [
+      "Capitale Elfique", "Cité de la Magie", "Forêt Ancienne", "Sanctuaire des Esprits",
+      "Tour de Cristal", "Jardin d'Éden", "Domaine de la Lumière", "Bastion de la Nature",
+      "Cité des Étoiles", "Palais des Songes"
+    ],
+    "spyNames": ["Œil Elfique", "Éclaireur Sylvestre", "Ombre de Sarion"],
+    "uniques": [
+      "[+500]% [Culture] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]",
+      "[+500]% [Foi] [dans toutes les villes]"
+    ],
+    "personality": {
+      "aggression": 4,
+      "expansion": 5,
+      "science": 9,
+      "gold": 7,
+      "culture": 10,
+      "militaryPower": 5,
+      "economicPower": 8
+    }
+  },
+  {
+    "name": "Domaine de Milim",
+    "leaderName": "Milim Nava",
+    "adjective": "Dragon",
+    "style": "European",
+    "startBias": ["Hills"],
+    "preferredVictoryType": "Domination",
+    "color": "#E91E63",
+    "secondaryColor": "#880E4F",
+    "cities": [
+      "Domaine de Milim", "Forteresse Dragonoïde", "Forteresse Céleste", "Palais Céleste",
+      "Pic du Dragon", "Flèche Ancienne", "Tempête Rose", "Zone du Chaos",
+      "Nexus de la Destruction", "Porte du Vide"
+    ],
+    "spyNames": ["Œil du Dragon", "Éclaireur de Milim", "Lame du Chaos"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]",
+      "[+500]% [Or] [dans toutes les villes]",
+      "[+500]% [Culture] [dans toutes les villes]",
+      "[+500]% [Foi] [dans toutes les villes]"
+    ],
+    "personality": {
+      "aggression": 9,
+      "expansion": 7,
+      "science": 6,
+      "gold": 5,
+      "culture": 5,
+      "militaryPower": 10,
+      "economicPower": 7
+    }
+  }
+]

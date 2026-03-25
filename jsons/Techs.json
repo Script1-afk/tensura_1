@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Physiologie de Slime",
+    "cost": 1,
+    "row": 1,
+    "column": 1,
+    "era": "Ancient",
+    "prerequisites": [],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]"
+    ],
+    "quote": "\"Le slime absorbe toutes les connaissances instantanément.\""
+  },
+  {
+    "name": "Arts Mystiques",
+    "cost": 1,
+    "row": 1,
+    "column": 2,
+    "era": "Ancient",
+    "prerequisites": ["Physiologie de Slime"],
+    "uniques": [
+      "[+500]% [Culture] [dans toutes les villes]",
+      "[+500]% [Or] [dans toutes les villes]"
+    ],
+    "quote": "\"La magie coule dans chaque veine de Tempest.\""
+  },
+  {
+    "name": "Pacte Démoniaque",
+    "cost": 1,
+    "row": 1,
+    "column": 3,
+    "era": "Ancient",
+    "prerequisites": ["Arts Mystiques"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]"
+    ],
+    "quote": "\"Les démons jurent fidélité à Rimuru.\""
+  },
+  {
+    "name": "Analyse et Appréciation (Grand Sage)",
+    "cost": 1,
+    "row": 2,
+    "column": 1,
+    "era": "Classical",
+    "prerequisites": ["Physiologie de Slime"],
+    "uniques": [
+      "[+500]% [Science] [dans toutes les villes]"
+    ],
+    "quote": "\"Grand Sage : Requête reconnue. Solution instanciée.\""
+  },
+  {
+    "name": "Maîtrise du Prédateur",
+    "cost": 1,
+    "row": 2,
+    "column": 2,
+    "era": "Classical",
+    "prerequisites": ["Arts Mystiques"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Culture] [dans toutes les villes]"
+    ],
+    "quote": "\"Le Prédateur dévore tout — compétences, magie et ennemis.\""
+  },
+  {
+    "name": "Savoir Draconique",
+    "cost": 1,
+    "row": 2,
+    "column": 3,
+    "era": "Classical",
+    "prerequisites": ["Pacte Démoniaque"],
+    "uniques": [
+      "[+500]% [Or] [dans toutes les villes]",
+      "[+500]% [Production] [dans toutes les villes]"
+    ],
+    "quote": "\"La sagesse des Vrais Dragons déverrouillée.\""
+  },
+  {
+    "name": "Arts de la Tempête",
+    "cost": 1,
+    "row": 3,
+    "column": 1,
+    "era": "Medieval",
+    "prerequisites": ["Analyse et Appréciation (Grand Sage)"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]"
+    ],
+    "quote": "\"La tempête de Veldora remodèle la réalité.\""
+  },
+  {
+    "name": "Science Dimensionnelle",
+    "cost": 1,
+    "row": 3,
+    "column": 2,
+    "era": "Medieval",
+    "prerequisites": ["Maîtrise du Prédateur"],
+    "uniques": [
+      "[+500]% [Science] [dans toutes les villes]",
+      "[+500]% [Or] [dans toutes les villes]"
+    ],
+    "quote": "\"Les dimensions se plient comme du papier devant Rimuru.\""
+  },
+  {
+    "name": "Domination Absolue",
+    "cost": 1,
+    "row": 3,
+    "column": 3,
+    "era": "Medieval",
+    "prerequisites": ["Savoir Draconique", "Science Dimensionnelle"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]",
+      "[+500]% [Or] [dans toutes les villes]",
+      "[+500]% [Culture] [dans toutes les villes]",
+      "[+500]% [Foi] [dans toutes les villes]"
+    ],
+    "quote": "\"Nul ne peut résister au pouvoir absolu.\""
+  },
+  {
+    "name": "Maîtrise de l'Octagramme",
+    "cost": 1,
+    "row": 4,
+    "column": 1,
+    "era": "Renaissance",
+    "prerequisites": ["Arts de la Tempête", "Domination Absolue"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]",
+      "[+500]% [Or] [dans toutes les villes]",
+      "[+500]% [Culture] [dans toutes les villes]"
+    ],
+    "quote": "\"Huit piliers du royaume des démons s'unissent.\""
+  },
+  {
+    "name": "Éveil du Vrai Dragon",
+    "cost": 1,
+    "row": 4,
+    "column": 2,
+    "era": "Renaissance",
+    "prerequisites": ["Domination Absolue"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]"
+    ],
+    "quote": "\"L'éveil d'un Vrai Dragon secoue le monde.\""
+  },
+  {
+    "name": "Réplication Infinie",
+    "cost": 1,
+    "row": 4,
+    "column": 3,
+    "era": "Renaissance",
+    "prerequisites": ["Domination Absolue"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Or] [dans toutes les villes]"
+    ],
+    "quote": "\"Les ressources se répliquent à l'infini à Tempest.\""
+  },
+  {
+    "name": "Éveil de Rimuru",
+    "cost": 1,
+    "row": 5,
+    "column": 2,
+    "era": "Industrial",
+    "prerequisites": ["Éveil du Vrai Dragon", "Maîtrise de l'Octagramme", "Réplication Infinie"],
+    "uniques": [
+      "[+500]% [Production] [dans toutes les villes]",
+      "[+500]% [Science] [dans toutes les villes]",
+      "[+500]% [Or] [dans toutes les villes]",
+      "[+500]% [Culture] [dans toutes les villes]",
+      "[+500]% [Foi] [dans toutes les villes]"
+    ],
+    "quote": "\"Je suis Rimuru Tempest — et je protégerai tout le monde.\""
+  }
+]

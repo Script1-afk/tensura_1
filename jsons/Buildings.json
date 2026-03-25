@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Château de Tempest",
+    "cost": 1,
+    "maintenance": 0,
+    "production": 500,
+    "science": 500,
+    "gold": 500,
+    "culture": 500,
+    "faith": 500,
+    "requiredTech": "Physiologie de Slime",
+    "quote": "\"Le cœur battant de la Fédération de Jura Tempest.\"",
+    "uniques": [
+      "[+500]% [Production] [dans cette ville]",
+      "[+500]% [Science] [dans cette ville]",
+      "[+500]% [Or] [dans cette ville]",
+      "[+500]% [Culture] [dans cette ville]",
+      "[+500]% [Foi] [dans cette ville]"
+    ]
+  },
+  {
+    "name": "Dimension du Labyrinthe",
+    "cost": 1,
+    "maintenance": 0,
+    "science": 1000,
+    "production": 200,
+    "requiredTech": "Science Dimensionnelle",
+    "quote": "\"Un espace infini sous le contrôle de Rimuru.\"",
+    "uniques": [
+      "[+1000]% [Science] [dans cette ville]",
+      "[+200]% [Production] [dans cette ville]"
+    ]
+  },
+  {
+    "name": "Cour de l'Octagramme",
+    "cost": 1,
+    "maintenance": 0,
+    "culture": 750,
+    "faith": 750,
+    "requiredTech": "Maîtrise de l'Octagramme",
+    "quote": "\"Là où les Rois Démons se réunissent.\"",
+    "uniques": [
+      "[+750]% [Culture] [dans cette ville]",
+      "[+750]% [Foi] [dans cette ville]"
+    ]
+  },
+  {
+    "name": "Sanctuaire du Dragon des Tempêtes",
+    "cost": 1,
+    "maintenance": 0,
+    "faith": 1000,
+    "production": 500,
+    "requiredTech": "Éveil du Vrai Dragon",
+    "quote": "\"Le lieu de repos du Dragon des Tempêtes, Veldora.\"",
+    "uniques": [
+      "[+1000]% [Foi] [dans cette ville]",
+      "[+500]% [Production] [dans cette ville]"
+    ]
+  },
+  {
+    "name": "Forge de Magie",
+    "cost": 1,
+    "maintenance": 0,
+    "production": 1000,
+    "gold": 200,
+    "requiredTech": "Savoir Draconique",
+    "quote": "\"Où les armes et armures les plus puissantes sont forgées.\"",
+    "uniques": [
+      "[+1000]% [Production] [dans cette ville]",
+      "[+200]% [Or] [dans cette ville]"
+    ]
+  },
+  {
+    "name": "Grande Bibliothèque Sage",
+    "cost": 1,
+    "maintenance": 0,
+    "science": 1500,
+    "culture": 300,
+    "requiredTech": "Analyse et Appréciation (Grand Sage)",
+    "quote": "\"Le savoir infini du Grand Sage.\"",
+    "uniques": [
+      "[+1500]% [Science] [dans cette ville]",
+      "[+300]% [Culture] [dans cette ville]"
+    ]
+  },
+  {
+    "name": "Palais du Roi Démon",
+    "cost": 1,
+    "maintenance": 0,
+    "production": 750,
+    "gold": 750,
+    "culture": 750,
+    "requiredTech": "Pacte Démoniaque",
+    "quote": "\"Le siège du pouvoir démoniaque.\"",
+    "uniques": [
+      "[+750]% [Production] [dans cette ville]",
+      "[+750]% [Or] [dans cette ville]",
+      "[+750]% [Culture] [dans cette ville]"
+    ]
+  },
+  {
+    "name": "Sanctuaire du Vrai Dragon",
+    "cost": 1,
+    "maintenance": 0,
+    "faith": 1200,
+    "science": 400,
+    "requiredTech": "Éveil du Vrai Dragon",
+    "quote": "\"Un lieu sacré où les Vrais Dragons sont vénérés.\"",
+    "uniques": [
+      "[+1200]% [Foi] [dans cette ville]",
+      "[+400]% [Science] [dans cette ville]"
+    ]
+  },
+  {
+    "name": "Académie Slimecrown",
+    "cost": 1,
+    "maintenance": 0,
+    "science": 800,
+    "culture": 800,
+    "requiredTech": "Physiologie de Slime",
+    "quote": "\"Où les jeunes monstres apprennent les voies de Tempest.\"",
+    "uniques": [
+      "[+800]% [Science] [dans cette ville]",
+      "[+800]% [Culture] [dans cette ville]"
+    ]
+  },
+  {
+    "name": "Armurerie Dimensionnelle",
+    "cost": 1,
+    "maintenance": 0,
+    "production": 1200,
+    "militaryPower": 500,
+    "requiredTech": "Science Dimensionnelle",
+    "quote": "\"Un arsenal sans fin, puisant dans d'autres dimensions.\"",
+    "uniques": [
+      "[+1200]% [Production] [dans cette ville]",
+      "[+500] [Puissance Militaire] [dans cette ville]"
+    ]
+  }
+]

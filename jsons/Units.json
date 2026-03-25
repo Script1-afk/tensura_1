@@ -1,0 +1,363 @@
+[
+  {
+    "name": "Colon de la Fédération de Jura Tempest",
+    "unitType": "Civilian",
+    "cost": 1,
+    "movement": 4,
+    "strength": 0,
+    "uniques": [
+      "Fonde une nouvelle ville",
+      "Empêche la propagation de la religion du propriétaire de la case à la ville qu'il fonde"
+    ]
+  },
+  {
+    "name": "Ouvrier de la Fédération de Jura Tempest",
+    "unitType": "Civilian",
+    "cost": 1,
+    "movement": 5,
+    "strength": 0,
+    "uniques": [
+      "Peut construire des [Améliorations]",
+      "Peut construire des [Routes]",
+      "Aucun coût de mouvement pour piller"
+    ]
+  },
+
+  {
+    "name": "Rimuru (Slime)",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 5,
+    "strength": 500,
+    "requiredTech": "Physiologie de Slime",
+    "upgradesTo": "Rimuru (Démon)",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [200] PV en tuant une unité",
+      "[+50]% Force contre les unités [Mêlée]"
+    ]
+  },
+  {
+    "name": "Rimuru (Démon)",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 6,
+    "strength": 2000,
+    "rangedStrength": 500,
+    "range": 2,
+    "requiredTech": "Pacte Démoniaque",
+    "upgradesTo": "Rimuru (Vrai Roi Démon)",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [800] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Rimuru (Vrai Roi Démon)",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 8,
+    "strength": 64000,
+    "rangedStrength": 16000,
+    "range": 2,
+    "requiredTech": "Éveil du Vrai Dragon",
+    "upgradesTo": "Rimuru (Dieu)",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [20000] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Rimuru (Dieu)",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 10,
+    "strength": 999999,
+    "rangedStrength": 500000,
+    "range": 3,
+    "requiredTech": "Éveil de Rimuru",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [999999] PV en tuant une unité",
+      "[+100]% Force"
+    ]
+  },
+
+  {
+    "name": "Veldora Tempest",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 8,
+    "strength": 100000,
+    "rangedStrength": 50000,
+    "range": 2,
+    "requiredTech": "Arts de la Tempête",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [10000] PV en tuant une unité",
+      "[+50]% Force contre les cases [Ville]"
+    ]
+  },
+  {
+    "name": "Milim Nava",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 9,
+    "strength": 80000,
+    "rangedStrength": 40000,
+    "range": 2,
+    "requiredTech": "Maîtrise de l'Octagramme",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [8000] PV en tuant une unité",
+      "[+25]% Force lors de l'attaque"
+    ]
+  },
+  {
+    "name": "Diablo",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 7,
+    "strength": 70000,
+    "requiredTech": "Pacte Démoniaque",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [7000] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Shion",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 6,
+    "strength": 60000,
+    "requiredTech": "Arts Mystiques",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [5000] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Ranga",
+    "unitType": "Mounted",
+    "cost": 1,
+    "movement": 10,
+    "strength": 65000,
+    "requiredTech": "Maîtrise du Prédateur",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [5000] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Benimaru",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 7,
+    "strength": 70000,
+    "rangedStrength": 35000,
+    "range": 2,
+    "requiredTech": "Arts de la Tempête",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [6000] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Hakuro",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 6,
+    "strength": 58000,
+    "requiredTech": "Arts Mystiques",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [5000] PV en tuant une unité",
+      "[+33]% Force contre les unités [Mêlée]"
+    ]
+  },
+  {
+    "name": "Souei",
+    "unitType": "Scout",
+    "cost": 1,
+    "movement": 10,
+    "strength": 55000,
+    "requiredTech": "Maîtrise du Prédateur",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Ignore la Zone de Contrôle",
+      "Soigne cette unité de [4000] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Geld (Seigneur Orque)",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 4,
+    "strength": 52000,
+    "requiredTech": "Pacte Démoniaque",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [8000] PV en tuant une unité",
+      "[+25]% Force en défense"
+    ]
+  },
+  {
+    "name": "Gobta (Cavalerie Gobeline)",
+    "unitType": "Mounted",
+    "cost": 1,
+    "movement": 8,
+    "strength": 50000,
+    "requiredTech": "Physiologie de Slime",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué"
+    ]
+  },
+  {
+    "name": "Guerrier Homme-Lézard",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 5,
+    "strength": 51000,
+    "requiredTech": "Physiologie de Slime",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué"
+    ]
+  },
+  {
+    "name": "Désastre Orque",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 4,
+    "strength": 51500,
+    "requiredTech": "Physiologie de Slime",
+    "uniques": [
+      "Soigne cette unité de [3000] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Soldat Démon",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 5,
+    "strength": 52000,
+    "requiredTech": "Pacte Démoniaque",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué"
+    ]
+  },
+  {
+    "name": "Archer Démon",
+    "unitType": "Ranged",
+    "cost": 1,
+    "movement": 4,
+    "strength": 40000,
+    "rangedStrength": 54000,
+    "range": 3,
+    "requiredTech": "Pacte Démoniaque"
+  },
+  {
+    "name": "Mage de la Tempête",
+    "unitType": "Ranged",
+    "cost": 1,
+    "movement": 4,
+    "strength": 38000,
+    "rangedStrength": 56000,
+    "range": 3,
+    "requiredTech": "Arts Mystiques"
+  },
+  {
+    "name": "Gardien du Vrai Dragon",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 8,
+    "strength": 90000,
+    "rangedStrength": 45000,
+    "range": 2,
+    "requiredTech": "Éveil du Vrai Dragon",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [9000] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Corps du Dragon des Tempêtes",
+    "unitType": "Mounted",
+    "cost": 1,
+    "movement": 9,
+    "strength": 85000,
+    "requiredTech": "Savoir Draconique",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [8000] PV en tuant une unité"
+    ]
+  },
+  {
+    "name": "Colosse Dimensionnel",
+    "unitType": "Siege",
+    "cost": 1,
+    "movement": 3,
+    "strength": 50000,
+    "rangedStrength": 200000,
+    "range": 4,
+    "requiredTech": "Éveil de Rimuru",
+    "uniques": [
+      "[+200]% Force contre les cases [Ville]",
+      "Doit se préparer pour attaquer à distance"
+    ]
+  },
+  {
+    "name": "Bombe Magique",
+    "unitType": "Siege",
+    "cost": 1,
+    "movement": 3,
+    "strength": 45000,
+    "rangedStrength": 250000,
+    "range": 5,
+    "requiredTech": "Éveil de Rimuru",
+    "uniques": [
+      "[+300]% Force contre les cases [Ville]",
+      "Doit se préparer pour attaquer à distance"
+    ]
+  },
+
+  {
+    "name": "Carrera (Primordial Jaune)",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 7,
+    "strength": 75000,
+    "requiredTech": "Pacte Démoniaque",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [7500] PV en tuant une unité",
+      "[+30]% Force contre les unités [Montées]"
+    ]
+  },
+  {
+    "name": "Ultima (Primordial Violet)",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 7,
+    "strength": 75000,
+    "requiredTech": "Pacte Démoniaque",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [7500] PV en tuant une unité",
+      "[+30]% Force contre les unités [Ranged]"
+    ]
+  },
+  {
+    "name": "Testarossa (Primordial Blanc)",
+    "unitType": "Melee",
+    "cost": 1,
+    "movement": 7,
+    "strength": 75000,
+    "requiredTech": "Pacte Démoniaque",
+    "uniques": [
+      "Peut se déplacer après avoir attaqué",
+      "Soigne cette unité de [7500] PV en tuant une unité",
+      "[+30]% Force contre les unités [Siege]"
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Essence Magique",
+    "resourceType": "Luxury",
+    "improvement": "Nœud Magique",
+    "terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest"],
+    "revealedBy": "Arts Mystiques"
+  },
+  {
+    "name": "Cœurs de Démon",
+    "resourceType": "Strategic",
+    "improvement": "Autel Démoniaque",
+    "terrainsCanBeFoundOn": ["Plains", "Hills", "Desert"],
+    "revealedBy": "Pacte Démoniaque"
+  },
+  {
+    "name": "Écailles de Dragon",
+    "resourceType": "Strategic",
+    "improvement": "Sanctuaire Draconique",
+    "terrainsCanBeFoundOn": ["Hills", "Mountains"],
+    "revealedBy": "Savoir Draconique"
+  },
+  {
+    "name": "Pierre Dimensionnelle",
+    "resourceType": "Luxury",
+    "improvement": "Faille Dimensionnelle",
+    "terrainsCanBeFoundOn": ["Plains", "Desert", "Tundra"],
+    "revealedBy": "Science Dimensionnelle"
+  },
+  {
+    "name": "Essence de Tempête",
+    "resourceType": "Luxury",
+    "improvement": "Vortex de Tempête",
+    "terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest"],
+    "revealedBy": "Arts de la Tempête"
+  },
+  {
+    "name": "Pouvoir Absolu",
+    "resourceType": "Strategic",
+    "improvement": "Nexus de Pouvoir",
+    "terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest", "Hills", "Desert", "Tundra"],
+    "revealedBy": "Domination Absolue"
+  },
+  {
+    "name": "Magicules",
+    "resourceType": "Strategic",
+    "improvement": "Générateur de Magicules",
+    "terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest", "Hills", "Desert", "Tundra", "Snow"],
+    "revealedBy": "Physiologie de Slime"
+  },
+  {
+    "name": "Minerai de Magisteel",
+    "resourceType": "Strategic",
+    "improvement": "Mine de Magisteel",
+    "terrainsCanBeFoundOn": ["Hills", "Mountains"],
+    "revealedBy": "Savoir Draconique"
+  },
+  {
+    "name": "Âmes de Héros",
+    "resourceType": "Strategic",
+    "improvement": "Autel des Âmes",
+    "terrainsCanBeFoundOn": ["Plains", "Desert"],
+    "revealedBy": "Pacte Démoniaque"
+  }
+]

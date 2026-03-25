@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Nœud Magique",
+    "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Forest"],
+    "techRequired": "Arts Mystiques",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+50] [Science] de l'amélioration",
+      "[+50] [Production] de l'amélioration",
+      "[+50] [Or] de l'amélioration"
+    ]
+  },
+  {
+    "name": "Autel Démoniaque",
+    "terrainsCanBeBuiltOn": ["Plains", "Hills", "Desert"],
+    "techRequired": "Pacte Démoniaque",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+100] [Production] de l'amélioration",
+      "[+50] [Foi] de l'amélioration"
+    ]
+  },
+  {
+    "name": "Sanctuaire Draconique",
+    "terrainsCanBeBuiltOn": ["Hills", "Mountains"],
+    "techRequired": "Savoir Draconique",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+100] [Production] de l'amélioration",
+      "[+50] [Science] de l'amélioration",
+      "[+50] [Or] de l'amélioration"
+    ]
+  },
+  {
+    "name": "Faille Dimensionnelle",
+    "terrainsCanBeBuiltOn": ["Plains", "Desert", "Tundra"],
+    "techRequired": "Science Dimensionnelle",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+100] [Science] de l'amélioration",
+      "[+50] [Production] de l'amélioration"
+    ]
+  },
+  {
+    "name": "Vortex de Tempête",
+    "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Forest"],
+    "techRequired": "Arts de la Tempête",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+75] [Production] de l'amélioration",
+      "[+75] [Or] de l'amélioration",
+      "[+25] [Science] de l'amélioration"
+    ]
+  },
+  {
+    "name": "Nexus de Pouvoir",
+    "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Forest", "Hills", "Desert", "Tundra"],
+    "techRequired": "Domination Absolue",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+999] [Production] de l'amélioration",
+      "[+999] [Science] de l'amélioration",
+      "[+999] [Or] de l'amélioration",
+      "[+999] [Foi] de l'amélioration",
+      "[+999] [Culture] de l'amélioration"
+    ]
+  },
+  {
+    "name": "Générateur de Magicules",
+    "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Forest", "Hills", "Desert", "Tundra", "Snow"],
+    "techRequired": "Physiologie de Slime",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+100] [Science] de l'amélioration",
+      "[+100] [Production] de l'amélioration"
+    ]
+  },
+  {
+    "name": "Mine de Magisteel",
+    "terrainsCanBeBuiltOn": ["Hills", "Mountains"],
+    "techRequired": "Savoir Draconique",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+150] [Production] de l'amélioration",
+      "[+50] [Or] de l'amélioration"
+    ]
+  },
+  {
+    "name": "Autel des Âmes",
+    "terrainsCanBeBuiltOn": ["Plains", "Desert"],
+    "techRequired": "Pacte Démoniaque",
+    "turnsToCreate": 1,
+    "uniques": [
+      "[+100] [Foi] de l'amélioration",
+      "[+50] [Culture] de l'amélioration"
+    ]
+  }
+]
