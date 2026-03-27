@@ -2,6 +2,7 @@
   "name": "tensura_1",
   "author": "Manus AI",
   "version": 3,
-  "description": "Tensura Unlimited v3 - Entièrement en français.",
-  "isExtension": false
+  "description": "Tensura Unlimited v3 - Entièrement en français. Nécessite le Ruleset 'tensura_rules'.",
+  "isExtension": true,
+  "baseRuleset": "tensura_rules"
 }
